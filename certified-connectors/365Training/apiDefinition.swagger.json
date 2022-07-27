@@ -32,7 +32,9 @@
   "consumes": [
     "application/json"
   ],
-  "produces": [],
+  "produces": [
+    "application/json"
+  ],
   "paths": {
     "/UserProfile": {
       "get": {
@@ -1426,7 +1428,7 @@
   "parameters": {},
   "responses": {},
   "securityDefinitions": {
-    "API Key": {
+    "API_Key": {
       "type": "apiKey",
       "in": "header",
       "name": "Ocp-Apim-Subscription-Key"
@@ -1434,7 +1436,7 @@
   },
   "security": [
     {
-      "API Key": []
+      "API_Key": []
     }
   ],
   "tags": []
